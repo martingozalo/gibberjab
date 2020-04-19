@@ -1,0 +1,27 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  /* overflow-y: scroll; */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+    /* display: none; */
+}
+
+body {
+  padding-top: 68px;
+}
+
+.navbar-brand {
+  font-size: 1.75em;
+}
+
+div.blog-header {
+  background: url(images/blog-header-bg.jpg);
+  width: 100%;
+  height: 100%;
+  opacity: 0.8; 
+}
